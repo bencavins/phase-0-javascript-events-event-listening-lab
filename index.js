@@ -1,2 +1,3 @@
-function addingEventListener() {
+function addingEventListener(element, callback) {
+    element.addEventListener(callback);
 }
